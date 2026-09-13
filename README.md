@@ -39,4 +39,4 @@ This chart comes from the Ubuntu FTP monitoring report credited to Kacper Lebida
 
 This table comes from my Windows Server FTP/SMB report. It contains upload/download scenarios for a 10 GB file and 5,000 files, using Windows and Ubuntu clients. Its columns are received bytes, sent bytes, available memory and processor time, but the image alone does not specify counter definitions or sampling units. It therefore does not justify a reliable FTP-versus-SMB speed ranking.
 
-Both artifacts are preserved unchanged from the original documents. This review adds interpretation and limitations; it does not recalculate unavailable raw data. Prepared with Codex assistance on 13 September 2026.
+Both artifacts are preserved unchanged from the original documents. This review adds interpretation and limitations; it does not recalculate unavailable raw data. Prepared on 13 September 2026.
