@@ -15,7 +15,7 @@ The FTP monitoring document references `vsftpd`, `nmon`, `vnstat`, Netplan and W
 
 ## Methodology review
 
-The reports compare resource use during transfers. A selected Ubuntu chart and the Windows FTP/SMB summary table have been extracted and reviewed. They are included unchanged below; no new benchmark measurements were generated.
+The reports compare resource use during transfers. A selected Ubuntu chart and the Windows FTP/SMB summary table have been extracted and reviewed. The original results are included below.
 
 The original FTP report explicitly notes that at least one observation comes from a single test. Different RAM allocations and operating systems also limit direct comparison. Historical conclusions should therefore be framed as observations from that setup, not general claims about which operating system or protocol is faster.
 
@@ -27,7 +27,7 @@ The original monitoring command needs checking before reuse; the text alone is n
 
 ## Portfolio status
 
-This package is a reviewed summary of the source text. It is not a newly executed benchmark. There are no fabricated throughput, CPU or memory measurements. The next step is to recover raw logs and sampling definitions before attempting statistical comparisons or a new benchmark.
+The published results come from the original reports. Further statistical comparisons require raw logs and sampling definitions.
 
 ## Original result artifacts
 
@@ -39,4 +39,4 @@ This chart comes from the Ubuntu FTP monitoring report credited to Kacper Lebida
 
 This table comes from my Windows Server FTP/SMB report. It contains upload/download scenarios for a 10 GB file and 5,000 files, using Windows and Ubuntu clients. Its columns are received bytes, sent bytes, available memory and processor time, but the image alone does not specify counter definitions or sampling units. It therefore does not justify a reliable FTP-versus-SMB speed ranking.
 
-Both artifacts are preserved unchanged from the original documents. This review adds interpretation and limitations; it does not recalculate unavailable raw data. Prepared on 13 September 2026.
+Both artifacts are preserved from the original reports. Analysis notes added on 13 September 2026.
